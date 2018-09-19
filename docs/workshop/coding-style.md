@@ -12,13 +12,13 @@ Para mais informações, acesse o site oficial do [EditorConfig](https://editorc
 
 ## Integração com o VS Code
 
-O EditorConfig disponibiliza uma extensão para a maioria dos editores de código. Para integrar o EditorConfig no VS Code, acesse a página da extensão do [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) e clique em `Install`.
+O EditorConfig disponibiliza uma extensão para a maioria dos editores de código. Para integrar o EditorConfig no VS Code, acesse a página da extensão [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) e clique em `Install`.
 
 ## Configurando o EditorConfig
 
 O arquivo `.editorconfig` é responsável pelas configurações do EditorConfig. Esse arquivo deve ser criado na raíz do projeto.
 
-```ini
+```properties
 # http://editorconfig.org
 root = true
 
