@@ -6,7 +6,7 @@ Nessa seção você encontrará as instruções necessárias para construir a do
 
 O **README** é o principal documento do seu projeto. Esse arquivo é responsável por apresentar todas as informações necessárias para que outras pessoas possam entender e utilizar seu projeto.
 
-Esse arquivo utiliza a linguagem de marcação **Markdown**, linguagem universal utilizada para documentar software atualmente.
+Esse arquivo utiliza a linguagem de marcação [Markdown](https://daringfireball.net/projects/markdown/), linguagem universal utilizada para documentar software atualmente.
 
 O README deve apresentar as seguintes informações:
 
@@ -41,7 +41,7 @@ Descrição detalhada do projeto.
 
 ## CHANGELOG
 
-**CHANGELOG** é o arquivo responsável por relacionar as alterações que foram feitas ao código atual. Ele também é escrito em **Markdown**.
+**CHANGELOG** é o arquivo responsável por relacionar as alterações que foram feitas ao código atual. Ele também é escrito em [Markdown](https://daringfireball.net/projects/markdown/).
 
 O arquivo `CHANGELOG.md` deve ser criado na raíz do projeto.
 
