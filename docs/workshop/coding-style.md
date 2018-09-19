@@ -8,11 +8,13 @@ Desenvolvedores optam por utilizar diferentes editores de código e cada um dess
 
 **EditorConfig** auxilia os desenvolvedores a definir e manter estilos de codificação consistentes entre diferentes editores.
 
+Para mais informações, acesse o site oficial do [EditorConfig](https://editorconfig.org/).
+
 ## Integração com o VS Code
 
-O EditorConfig disponibiliza uma extensão para a maioria dos editores de código. Para instalar a extensão, acesse a página da extensão do [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) e clique em `Install`.
+O EditorConfig disponibiliza uma extensão para a maioria dos editores de código. Para integrar o EditorConfig no VS Code, acesse a página da extensão do [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) e clique em `Install`.
 
-## .editorconfig
+## Configurando o EditorConfig
 
 O arquivo `.editorconfig` é responsável pelas configurações do EditorConfig. Esse arquivo deve ser criado na raíz do projeto.
 
@@ -33,7 +35,7 @@ max_line_length = off
 trim_trailing_whitespace = false
 ```
 
-### Detalhamento das configurações
+### Resumo das configurações
 
 - `# http://editorconfig.org`
 
