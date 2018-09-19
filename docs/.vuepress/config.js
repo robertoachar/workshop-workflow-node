@@ -15,7 +15,8 @@ module.exports = {
             'github',
             'project',
             'lint',
-            'prettier'
+            'prettier',
+            'docs'
           ]
         }
       ]
