@@ -14,12 +14,13 @@ module.exports = {
             'coding-style',
             'project',
             'source-code',
-            'eslint',
-            'prettier',
+            'lint',
+            'code-formatting',
             'docs',
             'github',
             'git',
-            'finish'
+            'finish',
+            'appendix'
           ]
         }
       ]
