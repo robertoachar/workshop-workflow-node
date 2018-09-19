@@ -11,11 +11,13 @@ Embora pareça uma tarefa simples, definir o nome do projeto exige um pouco de p
 - Evite colisão de nomes, mesmo que o nome do seu projeto esteja sendo usado apenas por outra linguagem/plataforma.
 - Evite trocadilhos, pois a tradução incorreta para outras culturas pode gerar um impacto negativo.
 
+::: warning npm
 Caso você esteja desenvolvendo um pacote que será publicado no `npm`, tenha em mente algumas informações:
 
 - O nome do pacote precisa ser único, a menos que você esteja utilizando escopo.
 - O nome precisa ser escrito em letras minúsculas, em um única palavra e sem espaços.
 - Hífens e Underscores são permitidos.
+  :::
 
 ## Diretório
 
@@ -84,19 +86,26 @@ O próximo passo é fazer algumas alterações nesse arquivo: adicionar uma desc
 ### Resumo das configurações
 
 - `name`: nome do pacote.
+
 - `version`: versão do pacote.
+
 - `description`: descrição do pacote.
+
 - `author`: autor do pacote.
+
 - `license`: licença utilizada.
+
 - `keywords`: coleção de palavras-chaves.
+
 - `main`: arquivo principal.
+
 - `scripts`: coleção de scripts disponíveis.
 
 ## Configurando o npm
 
 O próximo passo é criar os arquivos de configurações do `npm`. O arquivo `.npmrc` é o responsável pelas configurações locais do `npm`. Esse arquivo deve ser criado na raíz do projeto.
 
-```ini
+```properties
 package-lock = false
 progress = false
 registry = https://registry.npmjs.org
