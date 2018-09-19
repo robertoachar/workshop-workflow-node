@@ -23,6 +23,27 @@ Esse comando imprime `Hello Node!` na saída do Terminal.
 
 ## Integração com o npm
 
+Para integrar o código-fonte com o `npm`, edite o arquivo `package.json` e adicione as informações necessárias.
+
+Você deve informar qual é o arquivo principal, e quais arquivos e diretórios fazem parte do seu projeto.
+
+```json
+  "main": "src/index.js",
+  "files": ["src"]
+```
+
+### Resumo das configurações
+
+- `"main": "src/index.js"`
+
+Essa configuração informa ao `npm` que o arquivo principal do projeto é `src/index.js`.
+
+- `"files": ["src"]`
+
+Essa configuração informa ao `npm` que o diretório `src` faz parte do projeto.
+
+## Executando através do npm
+
 Você também pode executar seu projeto através dos scripts do `npm`. Para isso, adicione o script `start` no arquivo `package.json`.
 
 ```json
