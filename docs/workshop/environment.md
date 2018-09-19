@@ -37,7 +37,7 @@ Se a instalação estiver correta, o comando irá apresentar a versão instalada
 
 ## npm
 
-**npm** é o acrônimo para **Node Package Manager**, ou Gerenciador de Pacotes do Node.js. A instalação padrão do Node.js também instala o [npm](https://www.npmjs.com/).
+**npm** é o acrônimo para **Node Package Manager**, ou Gerenciador de Pacotes do Node. A instalação padrão do Node.js também instala o [npm](https://www.npmjs.com/).
 
 Para validar a instalação do npm, abra o Terminal e digite:
 
@@ -48,7 +48,7 @@ $ npm -v
 
 Se a instalação estiver correta, o comando irá apresentar a versão instalada no seu sistema operacional. No meu caso, a versão é a **v6.4.1**.
 
-::: warning Versão do npm
+::: warning Autalização do npm
 O instalador do Node.js nem sempre instala a última versão do npm.
 :::
 
