@@ -1,74 +1,111 @@
-.token.comment {
-  font-style italic
-}
+.token
+  &.comment,
+  &.block-comment
+    color #00a8ff
+    font-style italic
 
-.token.comment,
+.token
+  &.string
+    color #4cd137
+
 .token.prolog,
 .token.doctype,
-.token.cdata {
-	color: #00a8ff;
-}
+.token.cdata
+    color #999
 
-.token.punctuation {
-	color: #f5f6fa;
-}
+.token
+    &.punctuation
+        color #ccc
+    &.function-name
+        color #6196cc
+    &.italic
+        font-style italic
+    &.entity
+        cursor help
+    &.inserted
+        color green
 
-.namespace {
-	opacity: .7;
-}
-
+.token.tag,
 .token.attr-name,
+.token.namespace,
+.token.deleted
+    color #e2777a
+
 .token.boolean,
-.token.constant,
-.token.deleted,
-.token.function,
 .token.number,
+.token.function
+    color #f08d49
+
 .token.property,
-.token.symbol,
-.token.tag {
-	color: #ffc600;
-}
+.token.class-name,
+.token.constant,
+.token.symbol
+    color #f8c555
 
 .token.selector,
-.token.string,
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.builtin
+    color #cc99cd
+
 .token.char,
-.token.builtin,
-.token.inserted {
-	color: #44bd32;
-}
+.token.attr-value,
+.token.regex,
+.token.variable
+    color #7ec699
 
 .token.operator,
 .token.entity,
-.token.url,
-.language-css .token.string,
-.style .token.string {
-	color: #e1b12c;
-}
-
-.token.atrule,
-.token.attr-value,
-.token.keyword {
-	color: #f5f6fa;
-}
-
-.token.class-name {
-	color: #e84118;
-}
-
-.token.regex,
-.token.important,
-.token.variable {
-	color: #e90;
-}
+.token.url
+    color #67cdcc
 
 .token.important,
-.token.bold {
-	font-weight: bold;
-}
-.token.italic {
-	font-style: italic;
-}
+.token.bold
+    font-weight bold
 
-.token.entity {
-	cursor: help;
-}
+/* bash */
+.language-bash
+  .token
+    &.function
+      color #fbc531
+    &.operator
+      color #f5f6fa
+
+/* javascript */
+.language-javascript
+  .token
+    &.function
+      color #fbc531
+    &.punctuation
+      color #f5f6fa
+
+/* json */
+.language-json
+  .token
+    &.boolean,
+    &.operator,
+    &.punctuation
+      color #f5f6fa
+    &.property
+      color #fbc531
+    &.string
+      color #f5f6fa
+
+/* markdown */
+.language-markdown
+  .token
+    &.title
+      color #fbc531
+    &.punctuation
+      color #f5f6fa
+
+/* properties */
+.language-properties
+  .token
+    &.attr-name
+      color #fbc531
+    &.attr-value
+      color #f5f6fa
+    &.punctuation
+      color #e67e22
