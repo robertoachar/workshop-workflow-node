@@ -25,7 +25,7 @@ O arquivo `.gitattributes` é o responsável pela configuração dos atributos d
 * text=auto eol=lf
 ```
 
-### Detalhamento das configurações
+### Resumo das configurações
 
 - `* text=auto eol=lf`
 
