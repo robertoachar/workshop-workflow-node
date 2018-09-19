@@ -12,12 +12,14 @@ module.exports = {
             '',
             'environment',
             'coding-style',
-            'github',
             'project',
-            'lint',
+            'source-code',
+            'eslint',
             'prettier',
             'docs',
-            'source-code'
+            'github',
+            'git',
+            'finish'
           ]
         }
       ]
