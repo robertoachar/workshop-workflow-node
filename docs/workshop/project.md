@@ -1,12 +1,12 @@
-# Configurações do Projeto
+# Projeto
 
-Nessa seção você encontrará as instruções necessárias para configurar seu projeto.
+Nessa seção você encontrará as instruções necessárias para iniciar e configurar seu projeto.
 
-## Nome do Projeto
+## Nome
 
 Embora pareça uma tarefa simples, definir o nome do projeto exige um pouco de planejamento.
 
-- Utilize um nome que seja fácil de lembrar
+- Utilize um nome que seja fácil de lembrar.
 - Tome cuidado para que o nome do seu projeto não infrinja nenhuma marca registrada.
 - Evite colisão de nomes, mesmo que o nome do seu projeto esteja sendo usado apenas por outra linguagem/plataforma.
 - Evite trocadilhos, pois a tradução incorreta para outras culturas pode gerar um impacto negativo.
@@ -21,83 +21,80 @@ Caso você esteja desenvolvendo um pacote que será publicado no `npm`, tenha em
 
 O próximo passo é criar o diretório responsável por armazenar todo o código-fonte do projeto. Sugiro criar o nome do diretório com o mesmo nome do projeto.
 
-Para criar o diretório, abra seu Terminal e digite:
+Para criar o diretório, abra o Terminal e digite:
 
 ```bash
-$ mkdir awesome-project
+$ mkdir hello-node
 ```
 
 Para alterar para o diretório criado, digite:
 
 ```bash
-$ cd awesome-project
+$ cd hello-node
 ```
 
-## Configurações do npm
+## Iniciando um novo projeto
 
-O próximo passo é criar os arquivos de configurações do `npm`.
+O próximo passo é criar o arquivo `package.json`, responsável pelas configurações do projeto. Esse arquivo deve ser criado na raíz do projeto.
 
-### package.json
+Para iniciar um novo projeto, abra o Terminal e digite:
 
-O arquivo `package.json` é o responsável pelas configurações do projeto. Esse arquivo deve ser criado na raíz do projeto.
+```bash
+$ npm init -y
+```
+
+Esse comando criará o arquivo `package.json` com as informações mais comuns encontradas nos projetos.
 
 ```json
 {
-  "name": "awesome-project",
+  "name": "hello-node",
   "version": "1.0.0",
-  "description": "Awesome project",
-  "author": "Roberto Achar <robertoachar@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://github.com/robertoachar/awesome-project#readme",
-  "keywords": ["node"],
-  "main": "src/index.js",
-  "files": ["src"],
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/robertoachar/awesome-project.git"
-  },
-  "bugs": {
-    "url": "https://github.com/robertoachar/awesome-project/issues"
-  },
-  "dependencies": {},
-  "devDependencies": {},
-  "private": true
+  "keywords": [],
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "license": "MIT"
 }
 ```
 
-#### Detalhamento das configurações
+::: tip Dica
+A ordem dessas informações não importa. 😉
+:::
+
+É muito importante seguir padrões e eu gosto de manter as informações desse arquivo em uma ordem específica para todos os meus projetos. Isso facilita muito quando eu lido com muitos projetos simultaneamente.
+
+O próximo passo é fazer algumas alterações nesse arquivo: adicionar uma descrição, adicionar palavras-chaves e remover o script `test` (fora do escopo desse treinamento).
+
+```json
+{
+  "name": "hello-node",
+  "version": "1.0.0",
+  "description": "Hello Node",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "license": "MIT",
+  "keywords": ["node"],
+  "main": "index.js",
+  "scripts": {}
+}
+```
+
+### Resumo das configurações
 
 - `name`: nome do pacote.
 - `version`: versão do pacote.
 - `description`: descrição do pacote.
 - `author`: autor do pacote.
 - `license`: licença utilizada.
-- `homepage`: endereço do site do pacote.
 - `keywords`: coleção de palavras-chaves.
 - `main`: arquivo principal.
-- `files`: arquivos e diretórios que compõe o pacote.
 - `scripts`: coleção de scripts disponíveis.
-- `repository`: repositório do código-fonte.
-- `bugs`: local para encontrar ou reportar bugs.
-- `dependencies`: dependências do projeto.
-- `devDependencies`: dependências de desenvolvimento do projeto.
-- `private`: indica se o pacote pode ou não ser publicado.
 
-::: tip Dica
-Para gerar o arquivo `package.json` automaticamente, com as configurações padrões, digite:
+## Configurando o npm
 
-```bash
-$ npm init -y
-```
-
-:::
-
-### .npmrc
-
-O arquivo `.npmrc` é o responsável pelas configurações locais do `npm`. Esse arquivo deve ser criado na raíz do projeto.
+O próximo passo é criar os arquivos de configurações do `npm`. O arquivo `.npmrc` é o responsável pelas configurações locais do `npm`. Esse arquivo deve ser criado na raíz do projeto.
 
 ```ini
 package-lock = false
@@ -106,7 +103,7 @@ registry = https://registry.npmjs.org
 save-exact = true
 ```
 
-#### Detalhamento das configurações
+### Resumo das configurações
 
 - `package-lock = false`
 
