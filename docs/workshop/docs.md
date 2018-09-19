@@ -55,7 +55,7 @@ O arquivo `CHANGELOG.md` deve ser criado na raíz do projeto.
 
 ## LICENSE
 
-**LICENSE** é o arquivo responsável por apresentar qual é a licença de software que é utilizada no projeto. A licença mais comum utilizada em projetos _open source_ é `MIT`.
+**LICENSE** é o arquivo responsável por apresentar qual é a licença de software que é utilizada no projeto. A licença mais comum utilizada em projetos _open source_ é a `MIT`.
 
 O arquivo `LICENSE` deve ser criado na raíz do projeto.
 
@@ -87,4 +87,4 @@ SOFTWARE.
 Substitua as chaves [year] e [fullname] pelo ano e seu nome completo, respectivamente.
 :::
 
-Para mais opções de licença, consultar [Choose an open source license](https://choosealicense.com/).
+Para mais opções de licença, acesse [Choose an open source license](https://choosealicense.com/).
