@@ -14,7 +14,8 @@ module.exports = {
             'coding-style',
             'github',
             'project',
-            'lint'
+            'lint',
+            'prettier'
           ]
         }
       ]
