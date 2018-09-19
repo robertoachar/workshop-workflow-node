@@ -26,7 +26,7 @@ Esse comando instala o ESLint como dependência de desenvolvimento no arquivo `p
 
 ## Integração com o VS Code
 
-O ESLint disponibiliza uma extensão para o VS Code. Para instalar a extensão, acesse a página da extensão do [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) e clique em `Install`.
+O ESLint disponibiliza uma extensão para o VS Code. Para instalar a extensão, acesse a página da extensão [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) e clique em `Install`.
 
 ## Configurando o ESLint
 
@@ -56,7 +56,7 @@ O arquivo `.eslintignore` é o responsável por informar ao ESLint quais arquivo
 node_modules
 ```
 
-### Detalhamento das configurações
+### Resumo das configurações
 
 - `node_modules`
 
@@ -64,13 +64,13 @@ Configura o ESLint para ignorar a análise estática no diretório `node_modules
 
 ## Integração com o npm
 
-Para integrar o ESLint no `npm`, edite o arquivo package.json`.
+Para integrar o ESLint no `npm`, edite o arquivo `package.json`.
 
 ```json
   "scripts": {
     "lint": "eslint src/**/*.js",
     "start": "node src/index.js"
-  },
+  }
 ```
 
 Para executar o ESLint, abra o Terminal e digite:
