@@ -4,13 +4,13 @@ Nessa seção você encontrará as instruções necessárias para configurar a a
 
 ## Lint
 
-**Lint** é o termo utilizado para análise estática de código e seu objetivo é encontrar problemas no código antes mesmo dele ser executado.
+**Lint** é o termo utilizado para análise estática de código e seu objetivo é encontrar problemas no código antes mesmo dele ser executado. É uma das etapas mais importantes da construção de um software.
 
 ## ESLint
 
 **ESLint** é uma ferramenta de _linting_ desenvolvida especificamente para JavaScript. Possui uma grande quantidade de regras pré-definidas e é completamente customizável através de _plugins_.
 
-Para instalar o ESLint no seu projeto, abra seu Terminal e digite:
+Para instalar o ESLint no seu projeto, abra o Terminal e digite:
 
 ```bash
 $ npm i -D eslint
@@ -21,14 +21,18 @@ Esse comando instala o ESLint como dependência de desenvolvimento no arquivo `p
 ```json
   "devDependencies": {
     "eslint": "5.6.0"
-  },
+  }
 ```
 
 ## Integração com o VS Code
 
 O ESLint disponibiliza uma extensão para o VS Code. Para instalar a extensão, acesse a página da extensão do [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) e clique em `Install`.
 
-## .eslintrc.json
+## Configurando o ESLint
+
+As configurações do ESLint são definidas em dois arquivos: `.eslintrc.json` e `.eslintignore`.
+
+### .eslintrc.json
 
 O arquivo `.eslintrc.json` define as regras que serão utilizadas para realizar a análise estática do código. Esse arquivo deve ser criado na raíz do projeto.
 
@@ -38,39 +42,13 @@ O arquivo `.eslintrc.json` define as regras que serão utilizadas para realizar 
 }
 ```
 
-### Detalhamento das configurações
+### Resumo das configurações
 
 - `"extends": ["eslint:recommended"]`
 
 Configura o ESLint para utilizar as regras recomendadas para os problemas mais comuns.
 
-### Configurações do Airbnb
-
-Para instalar as regras do Airbnb, abra seu Terminal e digite:
-
-```bash
-$ npm i -D eslint-config-airbnb-base eslint-plugin-import
-```
-
-Esse comando instala as regras do Airbnb como dependências de desenvolvimento no arquivo `package.json`.
-
-```json
-  "devDependencies": {
-    "eslint": "5.6.0",
-    "eslint-config-airbnb-base": "13.1.0",
-    "eslint-plugin-import": "2.14.0"
-  },
-```
-
-Para utilizar as regras, edite o arquivo `.eslintrc.json`:
-
-```json
-{
-  "extends": ["airbnb-base"]
-}
-```
-
-## .eslintignore
+### .eslintignore
 
 O arquivo `.eslintignore` é o responsável por informar ao ESLint quais arquivos ou diretórios devem ser ignorados na análise estática. Esse arquivo deve ser criado na raíz do projeto.
 
@@ -84,17 +62,18 @@ node_modules
 
 Configura o ESLint para ignorar a análise estática no diretório `node_modules`.
 
-## Integração com o projeto
+## Integração com o npm
 
-Para integrar o ESLint no projeto, edite o arquivo package.json`.
+Para integrar o ESLint no `npm`, edite o arquivo package.json`.
 
 ```json
   "scripts": {
-    "lint": "eslint src/**/*.js"
+    "lint": "eslint src/**/*.js",
+    "start": "node src/index.js"
   },
 ```
 
-Para executar o ESLint, abra seu Terminal e digite:
+Para executar o ESLint, abra o Terminal e digite:
 
 ```bash
 $ npm run lint
