@@ -8,7 +8,7 @@ module.exports = {
         {
           title: 'Conteúdo',
           collapsable: true,
-          children: ['', 'environment']
+          children: ['', 'environment', 'coding-style']
         }
       ]
     }
