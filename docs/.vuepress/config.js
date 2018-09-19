@@ -1,5 +1,16 @@
 module.exports = {
   title: 'Workflow Node.js',
   description: 'Treinamento: Workflow para projetos em Node.js',
-  dest: './build'
+  dest: './build',
+  themeConfig: {
+    sidebar: {
+      '/workshop/': [
+        {
+          title: 'Conteúdo',
+          collapsable: true,
+          children: ['']
+        }
+      ]
+    }
+  }
 };
