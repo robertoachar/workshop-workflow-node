@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Treinamento: Workflow para projetos em Node.js.",
   "author": "Roberto Achar <robertoachar@gmail.com>",
+  "license": "CC-BY-NC-SA-4.0",
   "homepage": "https://github.com/robertoachar/workshop-workflow-node#readme",
   "keywords": [
     "workshop",
@@ -33,5 +34,5 @@
     "eslint-plugin-prettier": "2.6.2",
     "prettier": "1.14.2"
   },
-  "license": "MIT"
+  "private": true
 }
