@@ -1,8 +1,11 @@
+const head = require('./head');
+
 module.exports = {
   title: 'Workflow Node.js',
   description: 'Treinamento: Workflow para projetos em Node.js',
   dest: './build',
   serviceWorker: true,
+  head,
   themeConfig: {
     sidebar: {
       '/workshop/': [
@@ -25,6 +28,12 @@ module.exports = {
           ]
         }
       ]
+    },
+    serviceWorker: {
+      updatePopup: {
+        message: 'Novo conteúdo disponível.',
+        buttonText: 'Atualizar'
+      }
     }
   }
 };

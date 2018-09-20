@@ -1,0 +1,19 @@
+{
+  "name": "Workflow Node.js",
+  "short_name": "Workflow Node.js",
+  "display": "standalone",
+  "background_color": "#135e86",
+  "theme_color": "#135e86",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
