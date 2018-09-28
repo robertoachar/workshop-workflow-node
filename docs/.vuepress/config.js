@@ -4,7 +4,7 @@ module.exports = {
   title: 'Workflow Node.js',
   description: 'Treinamento: Workflow para projetos em Node.js',
   dest: './build',
-  serviceWorker: true,
+  ga: 'UA-91775148-4',
   head,
   themeConfig: {
     sidebar: {
@@ -29,6 +29,7 @@ module.exports = {
         }
       ]
     },
+    serviceWorker: true,
     serviceWorker: {
       updatePopup: {
         message: 'Novo conteúdo disponível.',
