@@ -51,12 +51,12 @@ $ npm i -D prettier eslint-config-prettier eslint-plugin-prettier
 Esse comando instala o Prettier, suas configurações e plugin como dependências de desenvolvimento no arquivo `package.json`.
 
 ```json
-  "devDependencies": {
-    "eslint": "5.6.0",
-    "eslint-config-prettier": "3.0.1",
-    "eslint-plugin-prettier": "2.6.2",
-    "prettier": "1.14.2"
-  }
+"devDependencies": {
+  "eslint": "5.12.1",
+  "eslint-config-prettier": "4.0.0",
+  "eslint-plugin-prettier": "3.0.1",
+  "prettier": "1.16.1"
+}
 ```
 
 Para integrar o Prettier no ESLint, edite o arquivo `.eslintrc.json`:
