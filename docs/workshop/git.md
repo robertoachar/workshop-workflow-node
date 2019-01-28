@@ -118,6 +118,7 @@ typings/
 
 # dotenv environment variables file
 .env
+.env.test
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -130,10 +131,15 @@ typings/
 
 # vuepress build output
 .vuepress/dist
-build
 
 # Serverless directories
-.serverless
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
 ```
 
 ::: tip Dica
