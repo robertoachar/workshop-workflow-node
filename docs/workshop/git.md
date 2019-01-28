@@ -12,10 +12,10 @@ Para validar a instalação do Git, abra o Terminal e digite:
 
 ```bash
 $ git --version
-git version 2.16.2.windows.1
+git version 2.20.1.windows.1
 ```
 
-Se a instalação estiver correta, o comando irá apresentar a versão instalada no seu sistema operacional. No meu caso, a versão é a **v2.16.2**.
+Se a instalação estiver correta, o comando irá apresentar a versão instalada no seu sistema operacional. No meu caso, a versão é a **v2.20.1**.
 
 ## .gitattributes
 
