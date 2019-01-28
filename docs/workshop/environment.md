@@ -11,7 +11,7 @@ Para instalar o VS Code, acesse a [página de downloads](https://code.visualstud
 ::: tip Versões do VS Code
 **Stable** é a versão estável. **Insiders** é a versão com funcionalidades experimentais.
 
-**Obs.:** Na dúvida, utilize a versão Stable.
+**Obs.:** Na dúvida, utilize a versão Stable. 😉
 :::
 
 ## Node.js
@@ -23,7 +23,7 @@ Para instalar o Node.js, acesse o site oficial do [Node.js](https://nodejs.org/)
 ::: tip Versões do Node.js
 **LTS** é a versão estável. **Current** é a versão com funcionalidades experimentais.
 
-**Obs.:** Na dúvida, utilize a versão LTS.
+**Obs.:** Na dúvida, utilize a versão LTS. 😉
 :::
 
 Para validar a instalação do Node.js, abra o Terminal e digite:
