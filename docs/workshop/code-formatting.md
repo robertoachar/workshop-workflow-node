@@ -6,6 +6,8 @@ Nessa seção você encontrará as instruções necessárias para configurar a f
 
 **Prettier** é um formatador de códigos com suporte a muitas linguagens e possui integração com a maioria dos editores de código. Seu objetivo é fazer com que o código seja formatado de maneira sólida e consistente.
 
+Para mais informações, acesse o site oficial do [Prettier](https://prettier.io/).
+
 ## Integração com o VS Code
 
 O Prettier disponibiliza uma extensão para a maioria dos editores de código. Para instalar a extensão, acesse a página da extensão do [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) e clique em `Install`.
