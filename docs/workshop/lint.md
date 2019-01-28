@@ -20,7 +20,7 @@ Esse comando instala o ESLint como dependência de desenvolvimento no arquivo `p
 
 ```json
   "devDependencies": {
-    "eslint": "5.6.0"
+    "eslint": "5.12.1"
   }
 ```
 
