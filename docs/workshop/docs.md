@@ -84,7 +84,7 @@ SOFTWARE.
 ```
 
 ::: tip Dica
-Substitua as chaves [year] e [fullname] pelo ano e seu nome completo, respectivamente.
+Substitua as chaves [year] e [fullname] pelo ano e seu nome completo, respectivamente. 😉
 :::
 
 Para mais opções de licença, acesse [Choose an open source license](https://choosealicense.com/).
