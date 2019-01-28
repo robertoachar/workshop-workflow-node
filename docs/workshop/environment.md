@@ -43,10 +43,10 @@ Para validar a instalação do npm, abra o Terminal e digite:
 
 ```bash
 $ npm -v
-6.4.1
+6.7.0
 ```
 
-Se a instalação estiver correta, o comando irá apresentar a versão instalada no seu sistema operacional. No meu caso, a versão é a **v6.4.1**.
+Se a instalação estiver correta, o comando irá apresentar a versão instalada no seu sistema operacional. No meu caso, a versão é a **v6.7.0**.
 
 ::: warning Autalização do npm
 O instalador do Node.js nem sempre instala a última versão do npm.
@@ -62,4 +62,5 @@ Para validar a atualização, digite:
 
 ```bash
 $ npm -v
+6.7.0
 ```
