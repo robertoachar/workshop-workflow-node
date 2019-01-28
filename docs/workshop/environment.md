@@ -30,10 +30,10 @@ Para validar a instalação do Node.js, abra o Terminal e digite:
 
 ```bash
 $ node -v
-v10.10.0
+v11.8.0
 ```
 
-Se a instalação estiver correta, o comando irá apresentar a versão instalada no seu sistema operacional. No meu caso, a versão é a **v10.10.0**.
+Se a instalação estiver correta, o comando irá apresentar a versão instalada no seu sistema operacional. No meu caso, a versão é a **v11.8.0**.
 
 ## npm
 
