@@ -143,7 +143,7 @@ typings/
 ```
 
 ::: tip Dica
-Esse é o arquivo padrão utilizado pela maioria dos projetos desenvolvidos para Node.js.
+Esse é o arquivo padrão utilizado pela maioria dos projetos desenvolvidos para Node.js. 😉
 :::
 
 ## Iniciando o repositório local
