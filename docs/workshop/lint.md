@@ -24,6 +24,8 @@ Esse comando instala o ESLint como dependência de desenvolvimento no arquivo `p
   }
 ```
 
+Para mais informações, acesse o site oficial do [ESLint](https://eslint.org/).
+
 ## Integração com o VS Code
 
 O ESLint disponibiliza uma extensão para o VS Code. Para instalar a extensão, acesse a página da extensão [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) e clique em `Install`.
