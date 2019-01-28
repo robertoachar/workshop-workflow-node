@@ -7,28 +7,26 @@ module.exports = {
   ga: 'UA-91775148-4',
   head,
   themeConfig: {
-    sidebar: {
-      '/workshop/': [
-        {
-          title: 'Conteúdo',
-          collapsable: true,
-          children: [
-            '',
-            'environment',
-            'coding-style',
-            'project',
-            'source-code',
-            'lint',
-            'code-formatting',
-            'docs',
-            'github',
-            'git',
-            'finish',
-            'appendix'
-          ]
-        }
-      ]
-    },
+    sidebar: [
+      {
+        title: 'Treinamento',
+        collapsable: false,
+        children: [
+          '/workshop/intro',
+          '/workshop/environment',
+          '/workshop/project',
+          '/workshop/coding-style',
+          '/workshop/source-code',
+          '/workshop/lint',
+          '/workshop/code-formatting',
+          '/workshop/docs',
+          '/workshop/github',
+          '/workshop/git',
+          '/workshop/finish',
+          '/workshop/appendix'
+        ]
+      }
+    ],
     serviceWorker: true,
     serviceWorker: {
       updatePopup: {
