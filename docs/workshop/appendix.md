@@ -22,7 +22,7 @@
 
 - **Markdown**  
   Site oficial: [https://daringfireball.net/projects/markdown/](https://daringfireball.net/projects/markdown/)  
-  Curso Gratuito: [Aprenda Markdown](https://markdown.showmethecode.com.br/)
+  Curso Gratuito: [Aprenda Markdown](https://www.udemy.com/aprenda-markdown/)
 
 ## N
 
