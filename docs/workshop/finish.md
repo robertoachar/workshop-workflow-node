@@ -22,7 +22,7 @@ OK.
 
 Eu matenho um Blog pessoal em: [https://showmethecode.com.br/](https://showmethecode.com.br/) e alguns dos meus artigos foram publicados no [iMasters](https://imasters.com.br/perfil/robertoachar/), leia onde **Achar** melhor.
 
-Disponibilizei um mini-curso em vídeo de Markdown chamado [Aprenda Markdown](https://markdown.showmethecode.com.br/).
+Disponibilizei um mini-curso gratuito em vídeo de Markdown chamado [Aprenda Markdown](https://www.udemy.com/aprenda-markdown/).
 
 Posto algumas dicas bacanas no meu [perfil do Twitter](https://twitter.com/robertoachar).
 
