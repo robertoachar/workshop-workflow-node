@@ -2,7 +2,7 @@
 home: true
 actionText: Iniciar treinamento →
 actionLink: /workshop/intro
-footer: CC-BY-NC-SA-4.0 © 2018 Roberto Achar
+footer: CC-BY-NC-SA-4.0 © 2018-2019 Roberto Achar
 ---
 
 <div class="feedbacks">
