@@ -25,6 +25,11 @@ module.exports = {
           '/workshop/finish',
           '/workshop/appendix'
         ]
+      },
+      {
+        title: 'DLC',
+        collapsable: false,
+        children: ['/dlc/lint-airbnb']
       }
     ],
     serviceWorker: true,
