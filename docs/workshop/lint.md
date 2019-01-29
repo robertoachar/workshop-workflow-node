@@ -20,9 +20,11 @@ Esse comando instala o ESLint como dependência de desenvolvimento no arquivo `p
 
 ```json
   "devDependencies": {
-    "eslint": "5.6.0"
+    "eslint": "5.12.1"
   }
 ```
+
+Para mais informações, acesse o site oficial do [ESLint](https://eslint.org/).
 
 ## Integração com o VS Code
 

@@ -14,7 +14,7 @@ O objetivo desse treinamento é apresentar um _**workflow**_ para desenvolviment
 
 ## Instrutor
 
-[Roberto Achar](https://twitter.com/robertoachar) é Full Stack Web Developer e possui 15 anos de experiência com desenvolvimento de software.
+[Roberto Achar](https://twitter.com/robertoachar) é Full Stack Web Developer e possui 15+ anos de experiência com desenvolvimento de software.
 
 ## Público-Alvo
 
@@ -25,3 +25,7 @@ O objetivo desse treinamento é apresentar um _**workflow**_ para desenvolviment
 
 - Familiaridade com ferramentas de linha de comando (Terminal)
 - Conhecimentos básicos de Git e GitHub
+
+## Licença
+
+Este material está disponível para uso privado, não comercial, sob a [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Se você gostaria de usar este material para conduzir seu próprio treinamento, entre em contato comigo pelo e-mail [robertoachar@gmail.com](mailto:robertoachar@gmail.com).

@@ -6,6 +6,8 @@ Nessa seção você encontrará as instruções necessárias para configurar a f
 
 **Prettier** é um formatador de códigos com suporte a muitas linguagens e possui integração com a maioria dos editores de código. Seu objetivo é fazer com que o código seja formatado de maneira sólida e consistente.
 
+Para mais informações, acesse o site oficial do [Prettier](https://prettier.io/).
+
 ## Integração com o VS Code
 
 O Prettier disponibiliza uma extensão para a maioria dos editores de código. Para instalar a extensão, acesse a página da extensão do [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) e clique em `Install`.
@@ -49,12 +51,12 @@ $ npm i -D prettier eslint-config-prettier eslint-plugin-prettier
 Esse comando instala o Prettier, suas configurações e plugin como dependências de desenvolvimento no arquivo `package.json`.
 
 ```json
-  "devDependencies": {
-    "eslint": "5.6.0",
-    "eslint-config-prettier": "3.0.1",
-    "eslint-plugin-prettier": "2.6.2",
-    "prettier": "1.14.2"
-  }
+"devDependencies": {
+  "eslint": "5.12.1",
+  "eslint-config-prettier": "4.0.0",
+  "eslint-plugin-prettier": "3.0.1",
+  "prettier": "1.16.1"
+}
 ```
 
 Para integrar o Prettier no ESLint, edite o arquivo `.eslintrc.json`:

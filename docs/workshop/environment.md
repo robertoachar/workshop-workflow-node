@@ -11,7 +11,7 @@ Para instalar o VS Code, acesse a [página de downloads](https://code.visualstud
 ::: tip Versões do VS Code
 **Stable** é a versão estável. **Insiders** é a versão com funcionalidades experimentais.
 
-**Obs.:** Na dúvida, utilize a versão Stable.
+**Obs.:** Na dúvida, utilize a versão Stable. 😉
 :::
 
 ## Node.js
@@ -23,17 +23,17 @@ Para instalar o Node.js, acesse o site oficial do [Node.js](https://nodejs.org/)
 ::: tip Versões do Node.js
 **LTS** é a versão estável. **Current** é a versão com funcionalidades experimentais.
 
-**Obs.:** Na dúvida, utilize a versão LTS.
+**Obs.:** Na dúvida, utilize a versão LTS. 😉
 :::
 
 Para validar a instalação do Node.js, abra o Terminal e digite:
 
 ```bash
 $ node -v
-v10.10.0
+v11.8.0
 ```
 
-Se a instalação estiver correta, o comando irá apresentar a versão instalada no seu sistema operacional. No meu caso, a versão é a **v10.10.0**.
+Se a instalação estiver correta, o comando irá apresentar a versão instalada no seu sistema operacional. No meu caso, a versão é a **v11.8.0**.
 
 ## npm
 
@@ -43,12 +43,12 @@ Para validar a instalação do npm, abra o Terminal e digite:
 
 ```bash
 $ npm -v
-6.4.1
+6.7.0
 ```
 
-Se a instalação estiver correta, o comando irá apresentar a versão instalada no seu sistema operacional. No meu caso, a versão é a **v6.4.1**.
+Se a instalação estiver correta, o comando irá apresentar a versão instalada no seu sistema operacional. No meu caso, a versão é a **v6.7.0**.
 
-::: warning Autalização do npm
+::: warning Atualização do npm
 O instalador do Node.js nem sempre instala a última versão do npm.
 :::
 
@@ -62,4 +62,5 @@ Para validar a atualização, digite:
 
 ```bash
 $ npm -v
+6.7.0
 ```

@@ -12,10 +12,10 @@ Para validar a instalação do Git, abra o Terminal e digite:
 
 ```bash
 $ git --version
-git version 2.16.2.windows.1
+git version 2.20.1.windows.1
 ```
 
-Se a instalação estiver correta, o comando irá apresentar a versão instalada no seu sistema operacional. No meu caso, a versão é a **v2.16.2**.
+Se a instalação estiver correta, o comando irá apresentar a versão instalada no seu sistema operacional. No meu caso, a versão é a **v2.20.1**.
 
 ## .gitattributes
 
@@ -118,6 +118,7 @@ typings/
 
 # dotenv environment variables file
 .env
+.env.test
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -130,14 +131,19 @@ typings/
 
 # vuepress build output
 .vuepress/dist
-build
 
 # Serverless directories
-.serverless
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
 ```
 
 ::: tip Dica
-Esse é o arquivo padrão utilizado pela maioria dos projetos desenvolvidos para Node.js.
+Esse é o arquivo padrão utilizado pela maioria dos projetos desenvolvidos para Node.js. 😉
 :::
 
 ## Iniciando o repositório local
