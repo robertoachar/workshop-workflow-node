@@ -30,10 +30,10 @@ Para validar a instalação do Node.js, abra o Terminal e digite:
 
 ```bash
 $ node -v
-v11.8.0
+v10.16.3
 ```
 
-Se a instalação estiver correta, o comando irá apresentar a versão instalada no seu sistema operacional. No meu caso, a versão é a **v11.8.0**.
+Se a instalação estiver correta, o comando irá apresentar a versão instalada no seu sistema operacional. No meu caso, a versão é a **v10.16.3**.
 
 ## npm
 
@@ -43,10 +43,10 @@ Para validar a instalação do npm, abra o Terminal e digite:
 
 ```bash
 $ npm -v
-6.7.0
+6.9.0
 ```
 
-Se a instalação estiver correta, o comando irá apresentar a versão instalada no seu sistema operacional. No meu caso, a versão é a **v6.7.0**.
+Se a instalação estiver correta, o comando irá apresentar a versão instalada no seu sistema operacional. No meu caso, a versão é a **6.9.0**.
 
 ::: warning Atualização do npm
 O instalador do Node.js nem sempre instala a última versão do npm.
@@ -62,5 +62,5 @@ Para validar a atualização, digite:
 
 ```bash
 $ npm -v
-6.7.0
+6.9.0
 ```
