@@ -20,12 +20,12 @@ Esse comando instala as regras do Airbnb como dependência no `package.json`.
 
 ```json
 "devDependencies": {
-  "eslint": "5.12.1",
-  "eslint-config-airbnb-base": "13.1.0",
-  "eslint-config-prettier": "4.0.0",
-  "eslint-plugin-import": "2.15.0",
-  "eslint-plugin-prettier": "3.0.1",
-  "prettier": "1.16.1"
+  "eslint": "6.4.0",
+  "eslint-config-airbnb-base": "14.0.0",
+  "eslint-config-prettier": "6.3.0",
+  "eslint-plugin-import": "2.18.2",
+  "eslint-plugin-prettier": "3.1.0",
+  "prettier": "1.18.2",
 }
 ```
 
