@@ -20,7 +20,7 @@ Eu investi algumas horas para desenvolver esse conteúdo e eu ficaria muito feli
 
 OK.
 
-Eu matenho um Blog pessoal em: [https://showmethecode.com.br/](https://showmethecode.com.br/) e alguns dos meus artigos foram publicados no [iMasters](https://imasters.com.br/perfil/robertoachar/), leia onde **Achar** melhor.
+Eu matenho um site pessoal em: [https://robertoachar.dev/](https://robertoachar.dev/) e alguns dos meus artigos foram publicados no [iMasters](https://imasters.com.br/perfil/robertoachar/), leia onde **Achar** melhor.
 
 Disponibilizei um mini-curso gratuito em vídeo de Markdown chamado [Aprenda Markdown](https://www.udemy.com/aprenda-markdown/).
 
