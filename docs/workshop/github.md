@@ -81,10 +81,10 @@ Abaixo você pode conferir o exemplo do arquivo `package.json` completo.
   },
   "dependencies": {},
   "devDependencies": {
-    "eslint": "5.12.1",
-    "eslint-config-prettier": "4.0.0",
-    "eslint-plugin-prettier": "3.0.1",
-    "prettier": "1.16.1"
+    "eslint": "6.4.0",
+    "eslint-config-prettier": "6.3.0",
+    "eslint-plugin-prettier": "3.1.0",
+    "prettier": "1.18.2"
   },
   "private": true
 }
